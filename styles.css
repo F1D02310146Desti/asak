@@ -1,0 +1,97 @@
+body {
+    width: 1440px;
+    height: 1024px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, white, rgb(255, 220, 150));
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 150px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: auto; /* Agar proporsi tetap terjaga */
+    margin-top: 50px;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(204, 150, 44);
+}
+
+.nav {
+    font-size: 14px;
+    color: #777;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.text-content {
+    max-width: 1000px;
+}
+
+.text-content h1 {
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: #8d8d8d 0px 3px 0px;
+    color: rgb(204, 150, 44);
+}
+
+.text-content p {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(39, 55, 77);
+}
+
+.buttons {
+    margin-top: 100px;
+}
+
+.buttons button {
+    padding: 5px 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #777;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: all 0.3s;
+    opacity: 40%;
+}
+
+.buttons button:hover {
+    background: rgb(77, 171, 236);
+    color: white;
+    border-color: rgb(77, 171, 236);
+    opacity: 100%;
+}
+
+.image-content img {
+    width: 500px;
+}
