@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <head>
-    <title>ASAK</title> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1440, height=1024, initial-scale=1.0">
+    <title>ASAK - Aksara Sasak</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dasboardStyles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
-    <p><a href="Beranda.html">Log out</a> <a href="Profile.html">Profile</a></p>
-    <h1>ASAK</h1>
-    <h4>Selamat Datang Di Pembelajaran</h4>
-    <h1>AKSARA SASAK</h1>
-    <p>Silahkan Pilih Kotak Pembelajaran Di Bawah Ini</p>
-    <table border="1">
-        <tr>
-            <td> <p><a href="PengenalanAR.html">Pengenalan Aksara Sasak</a></p> </td>
-            <td> <p>Belajar Aksara Sasak</p> </td>
-            <td> <p>Latihan  Aksara Sasak</p> </td>
-        </tr>
-        <tr>
-            <td> <p>gambar1</p> </td>
-            <td> <p>gambar2</p> </td>
-            <td> <p>gambar3</p> </td>
-        </tr>
-    </table>   
+    <div class="navbar">
+        <div class="logo">
+            <img src="asak 4.png" alt="Logo nya">
+        </div>
+        <div class="navbar_nav">
+            <a href="Dashboard.html"><i data-feather="home"></i></a>
+            <a href="index.html"><i data-feather="log-out"></i></a> 
+            <a href="Profile.html"><i data-feather="user"></i></a>
+        </div>
+    </div>
+
+    <div class="konteks">
+        <h1>Selamat Datang Di Pembelajaran <br>AKSARA SASAK</h1>
+        <p>Silahkan Pilih Kotak Pembelajaran Di Bawah Ini</p>
+    </div>
+
+    <div class="bagian">
+        <p class="a">Pengenalan Aksara Sasak</p>
+        <p class="b">Belajar Aksara Sasak</p>
+        <p class="c">Latihan Aksara Sasak</p>
+    </div> 
+
+    <div class="bagian_gambar">
+        <img src="pengenalan aksara.png" alt="pengenalan">
+        <img src="fitur belajar.png" alt="belajar">
+        <img src="fitur latihan.png" alt="latihan">
+    </div> 
+
+    <script>
+        feather.replace();
+      </script>
 </body>
