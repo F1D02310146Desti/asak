@@ -1,0 +1,123 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #000000;
+  margin: 0 10px;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #8b6f3f;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+}
+
+.login-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-header {
+  text-align: left;
+  margin-bottom: 50px;
+  padding: auto;
+  background: linear-gradient(45deg, white, rgb(255, 220, 150));
+  
+}
+
+.login-header img {
+  width: 120px;
+  height: auto;
+  display: flex;
+}
+
+
+
+.login-container h2{
+    margin-bottom: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"] {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: block;
+}
+
+button {
+  background-color: #4285f4;
+  color: white;
+  padding: 12px;
+  border: none;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #357ae8;
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.google-button img {
+  width: 20px;
+  margin-right: 10px;
+}

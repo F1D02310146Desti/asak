@@ -1,20 +1,48 @@
 <!DOCTYPE html>
+<html lang="id">
 <head>
-    <title>ASAK</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASAK - Login</title>
+    <link rel="stylesheet" href="loginstyle.css">
 </head>
 <body>
-    <p><a href="Sejarah.html">Sejarah</a> <a href="Beranda.html">Beranda</a></p>
-    <h1>ASAK</h1>
-    <h2>ASAK</h2>
-    <h3>Selamat Datang!</h3>
-    <h4>Silahkan Daftarkan Diri Anda</h4>
-    <form >
-        username<br>
-        <input type="text" name="username" value="Masukkan Username"><br>
-        password<br>
-        <input type="password" name="password" value="Masukkan Password"><br>
-        <p><a href="Dashboard.html">Log in</a></p><br>
-        <p>Belum Punya Akun? <a href="Daftar.html">Daftar</a></p>
-        <input type="button" name="daftar" value="Masuk Dengan Akun Google">
-    </form>
+    <header>
+        <h1 class="logo">
+            <img src="asak 4.png" alt="Logo ASAK">
+        </h1>
+        <nav>
+            <a href="Sejarah.html">Sejarah</a>
+            <a href="Beranda.html">Beranda</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="login-container">
+            <div class="login-header">
+                <img src="asak 4.png" alt="ASAK Logo">
+                <h2>Selamat Datang!</h2>
+                <p>Silahkan Daftarkan Diri Anda</p>
+            </div>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Masukkan Username" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Masukkan Password" required>
+                
+                <label for="telpon">No. Telpon</label>
+                <input type="tel" id="telpon" name="telpon" placeholder="Masukkan No. Telpon" required>
+                
+                <button type="submit">Daftar</button>
+                
+                <p>Sudah Punya Akun? <a href="Login.html">Masuk</a></p>
+                
+                <button type="button" class="google-button">
+                    <img src="google_icon.png" alt="Google"> Daftar Dengan Akun Google
+                </button>
+            </form>
+        </div>
+    </main>
 </body>
+</html>
