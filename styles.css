@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
 }
 
 .logo {
@@ -47,7 +47,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 1px;
+}
+
+.content2 {
+    display: flex;
+    align-items: center;
 }
 
 .text-content {
@@ -59,16 +64,23 @@ body {
     font-weight: bold;
     text-shadow: #8d8d8d 0px 3px 0px;
     color: rgb(204, 150, 44);
+    margin: 0 0px;
 }
 
 .text-content p {
     font-size: 20px;
-    font-weight: bold;
+    color: #27374D;
+    margin: 0 0px;
+}
+
+.text-content h2 {
+    font-size: 20px;
     color: rgb(39, 55, 77);
+    margin: 0 0px;
 }
 
 .buttons {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .buttons button {
@@ -93,5 +105,22 @@ body {
 }
 
 .image-content img {
-    width: 500px;
+    width: 650px;
+    margin: 0 0px;
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+}
+
+.pesawat img{
+    width: 150px;
+    position: relative;
+    right: 80px;
+}
+
+.orang img{
+    width: 200px;
+    position: relative;
+    left: 390px;
+    bottom: 70px;
 }
