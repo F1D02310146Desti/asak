@@ -22,7 +22,7 @@ body {
 
 .logo img{
     position: relative;
-    left: 40%;
+    left: 50px;
     width: 100px;
     height: auto;
 }
@@ -39,16 +39,9 @@ body {
 .konteks h1{
     font-size: 50px;
     position: relative;
-    left: 4%;
-    padding-top: 2%;
+    left: 50px;
+    padding: 20px;
     color: #27374D;
-}
-
-.konteks h3{
-    position: relative;
-    left: 4%;
-    padding-bottom: 3%;
-    color: #101010;
 }
 
 .bagian{
