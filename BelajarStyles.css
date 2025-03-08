@@ -37,29 +37,30 @@ body {
 }
 
 .konteks h1{
-    font-size: 50px;
-    position: relative;
-    left: 50px;
-    padding: 20px;
+    font-size: 300%;
+    text-align: center;
+    padding:3%;
     color: #27374D;
 }
 
 .bagian{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-.bagian p{
+.bagian_gambar p{
     color: #fff;
-    font-size: 20px;
+    font-size: 150%;
+    font-weight: bold;
     background-color: #C5922D;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 4%;
+    align-items: center;
+    text-align: center;
 }
 
 .bagian_gambar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .bagian_gambar img{
